@@ -1,0 +1,29 @@
+{
+  "name": "food-deliveary---megaone-html5-template-recreation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:./assets/css/",
+    "autoprefix": "postcss assets/css/style.css --replace --use autoprefixer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaquille19/food-deliveary--megaone-html5-template-recreation.git"
+  },
+  "author": "S. M. Saifullah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaquille19/food-deliveary--megaone-html5-template-recreation/issues"
+  },
+  "homepage": "https://github.com/shaquille19/food-deliveary--megaone-html5-template-recreation#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "line-awesome": "^1.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss-cli": "^9.1.0",
+    "sass": "^1.47.0"
+  }
+}
